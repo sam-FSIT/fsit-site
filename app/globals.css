@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-brand-darker text-white antialiased;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-gradient-to-r from-brand-gold to-amber-300 bg-clip-text text-transparent;
+  }
+  .border-gradient {
+    border-image: linear-gradient(135deg, #C9A84C, #E8C97A) 1;
+  }
+  .glow-gold {
+    box-shadow: 0 0 30px rgba(201, 168, 76, 0.2);
+  }
+}
