@@ -2,7 +2,7 @@ import { contenu } from '@/contenu'
 import { Logo, Section, Row, Retour } from '@/components/Legal'
 
 export const metadata = {
-  title: 'Mentions légales — FULLSTACK-IT',
+  title: 'Mentions légales',
 }
 
 export default function MentionsLegales() {

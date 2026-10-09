@@ -2,7 +2,7 @@ import { contenu } from '@/contenu'
 import { Logo, Section, Retour } from '@/components/Legal'
 
 export const metadata = {
-  title: 'Politique de confidentialité — FULLSTACK-IT',
+  title: 'Politique de confidentialité',
 }
 
 export default function PolitiqueConfidentialite() {

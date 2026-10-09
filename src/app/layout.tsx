@@ -13,7 +13,7 @@ import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://fullstack-it.fr'),
-  title: 'FULLST4CK-IT — Conseil, Administration et maintenance IT en Alsace',
+  title: { default: 'FullSt4ck-IT', template: '%s — FullSt4ck-IT' },
   description:
     "FULLST4CK-IT, l'informaticien des artisans et des PME : infrastructure réseau, Microsoft 365 & Cloud, support et maintenance en Alsace et Grand Est.",
   icons: { icon: [{ url: '/favicon.svg', type: 'image/svg+xml' }] },

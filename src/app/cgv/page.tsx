@@ -1,7 +1,7 @@
 import { Logo, Retour } from '@/components/Legal'
 
 export const metadata = {
-  title: 'CGV — FULLSTACK-IT',
+  title: 'CGV',
 }
 
 export default function CGV() {
